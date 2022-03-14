@@ -1,7 +1,7 @@
 {% include navigation.html %}
 # Week 0: (3/7/22 ~ 3/11/22)
 
-## TPT 0.1 Beneficial and Harmful Effects of Computing Big Idea 5.1
+## TPT 5.1 Beneficial and Harmful Effects of Computing 
 ### Notes:
 * UAVs/Drones often used for beneficial usage, but there are some unintended usages like unintended usages
 * Dopamine plays role in the emotions we feel 
@@ -24,7 +24,7 @@
 ### Talk about dopamine issues above. Real? Parent conspiracy? Anything that is impacting your personal study and success in High School?
 Dopamine issues are real, neither parent conspiracy nor fake. Anyone can get dopamine from doing something enjoyable, such as gaming, eating, shopping, etc, but having too much can be a problem. People get addicted and start becoming aggressive. They can't control themselves. A lot of the times, many students, like me, spend time playing games, go on SNS, or go outside when they are supposed to study and work on self-development for school. Sometimes, when I'm on my phone looking at social media, I think that I need to focus on what I should do first than getting distracted to what I shouldn't.
 
-## TPT 0.2 Digital Divide Big Idea 5.2
+## TPT 5.2 Digital Divide 
 ### Notes: 
 * Even though the technology has improved over time, there are some places don't have access to internet
 * Some countries may have restricted access, for instance China and America may have divide in service allowed in their countries
