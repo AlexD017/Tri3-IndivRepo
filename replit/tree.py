@@ -6,7 +6,7 @@ Brown = "\033[0;33m"
 
 
 def tree1():
-    print("\033[0;33m               ***            ")
+    print("\033[0;33m                ***            ")
 
 
 def tree2():
