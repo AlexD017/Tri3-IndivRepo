@@ -17,20 +17,20 @@ banner = f"\n{border}\nSelect an option!\n{border}"
 
 
 def mainmenu():
-    title = "menu" + banner
+    title = "Menu" + banner
     menu_list = main_menu.copy()
     menu_list.append(["Animations", submenu])
     buildMenu(title, menu_list)
 
 
 def submenus():
-    title = "submenu" + banner
-    m = submenus.Menu(title, sub_menu)
+    title = "Submenu" + banner
+    m = submenu.Menu(title, sub_menu)
     m.menu()
 
 
 def submenua():
-    title = "submenu" + banner
+    title = "Submenu" + banner
     buildMenu(title, sub_menu)
 
 
