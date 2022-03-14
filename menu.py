@@ -20,7 +20,7 @@ def mainmenu():
     title = "Menu" + banner
     menu_list = main_menu.copy()
     menu_list.append(["Animations", submenu])
-    buildMenu(title, menu_list)
+    buildmenu(title, menu_list)
 
 
 def submenus():
@@ -31,11 +31,11 @@ def submenus():
 
 def submenua():
     title = "Submenu" + banner
-    buildMenu(title, sub_menu)
+    buildmenu(title, sub_menu)
 
 
 # builds console menu
-def buildMenu(banner, options):
+def buildmenu(banner, options):
     print(banner)
     prompts = {0: ["Exit", None]}
     for op in options:
@@ -71,8 +71,7 @@ def buildMenu(banner, options):
         # not one of the numbers listed
         print(f"invalid choice: {choice}")
 
-
-    buildMenu(banner, options)  # recursion, start menu over again
+    buildmenu(banner, options)  # recursion, start menu over again
 
 
 if __name__ == "__main__":
