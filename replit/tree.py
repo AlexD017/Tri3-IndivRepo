@@ -10,7 +10,7 @@ def tree1():
 
 
 def tree2():
-    print("                ***            ")
+    print("                 ***            ")
     print("                 ***            ")
 
 
@@ -21,14 +21,14 @@ def tree3():
 
 
 def tree4():
-    print("\u001b[32m       * * * * * * * * * * *   ")
+    print("\u001b[32m        * * * * * * * * * * *   ")
     print("       * * * * * * * * * * * *  ")
     print("\033[0;33m                 ***            ")
     print("                 ***            ")
 
 
 def tree5():
-    print("\u001b[32m        * * * * * * * * * *    ")
+    print("\u001b[32m         * * * * * * * * * *    ")
     print("        * * * * * * * * * * *   ")
     print("       * * * * * * * * * * * *  ")
     print("\033[0;33m                 ***            ")
@@ -36,7 +36,7 @@ def tree5():
 
 
 def tree6():
-    print("\u001b[32m         * * * * * * * * *     ")
+    print("\u001b[32m          * * * * * * * * *     ")
     print("         * * * * * * * * * *    ")
     print("        * * * * * * * * * * *   ")
     print("       * * * * * * * * * * * *  ")
@@ -45,7 +45,7 @@ def tree6():
 
 
 def tree7():
-    print("\u001b[32m          * * * * * * * *      ")
+    print("\u001b[32m           * * * * * * * *      ")
     print("          * * * * * * * * *     ")
     print("         * * * * * * * * * *    ")
     print("        * * * * * * * * * * *   ")
@@ -55,7 +55,7 @@ def tree7():
 
 
 def tree8():
-    print("\u001b[32m           * * * * * * *        ")
+    print("\u001b[32m            * * * * * * *        ")
     print("           * * * * * * * *      ")
     print("          * * * * * * * * *     ")
     print("         * * * * * * * * * *    ")
@@ -66,7 +66,7 @@ def tree8():
 
 
 def tree9():
-    print("\u001b[32m            * * * * * *         ")
+    print("\u001b[32m             * * * * * *         ")
     print("            * * * * * * *       ")
     print("           * * * * * * * *      ")
     print("          * * * * * * * * *     ")
@@ -78,7 +78,7 @@ def tree9():
 
 
 def tree10():
-    print("\u001b[32m             * * * * *          ")
+    print("\u001b[32m              * * * * *          ")
     print("             * * * * * *        ")
     print("            * * * * * * *       ")
     print("           * * * * * * * *      ")
@@ -91,7 +91,7 @@ def tree10():
 
 
 def tree11():
-    print("\u001b[32m              * * * *          ")
+    print("\u001b[32m               * * * *          ")
     print("              * * * * *         ")
     print("             * * * * * *        ")
     print("            * * * * * * *       ")
@@ -105,7 +105,7 @@ def tree11():
 
 
 def tree12():
-    print("\u001b[32m               * * *           ")
+    print("\u001b[32m                * * *           ")
     print("               * * * *          ")
     print("              * * * * *         ")
     print("             * * * * * *        ")
@@ -120,7 +120,7 @@ def tree12():
 
 
 def tree13():
-    print("\u001b[32m                * *            ")
+    print("\u001b[32m                 * *            ")
     print("                * * *           ")
     print("               * * * *          ")
     print("              * * * * *         ")
@@ -136,7 +136,7 @@ def tree13():
 
 
 def tree14():
-    print("\u001B[93m                 *             ")
+    print("\u001B[93m                  *             ")
     print("\u001b[32m                 * *            ")
     print("                * * *           ")
     print("               * * * *          ")
@@ -195,5 +195,5 @@ tree13()
 time.sleep(.5)
 os.system("clear")
 tree14()
-time.sleep(.5)
+time.sleep(.8)
 os.system("clear")
