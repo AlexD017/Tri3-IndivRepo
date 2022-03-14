@@ -16,11 +16,11 @@ border = "=" * 25
 banner = f"\n{border}\nSelect an option!\n{border}"
 
 
-def mainmenu():
+def menu():
     title = "Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Animations", submenu])
-    buildmenu(title, menu_list)
+    menu_list.append(["Animations", submenua])
+    buildMenu(title, menu_list)
 
 
 def submenus():
@@ -31,11 +31,11 @@ def submenus():
 
 def submenua():
     title = "Submenu" + banner
-    buildmenu(title, sub_menu)
+    buildMenu(title, sub_menu)
 
 
 # builds console menu
-def buildmenu(banner, options):
+def buildMenu(banner, options):
     print(banner)
     prompts = {0: ["Exit", None]}
     for op in options:
@@ -71,8 +71,8 @@ def buildmenu(banner, options):
         # not one of the numbers listed
         print(f"invalid choice: {choice}")
 
-    buildmenu(banner, options)  # recursion, start menu over again
+    buildMenu(banner, options)  # recursion, start menu over again
 
 
 if __name__ == "__main__":
-    mainmenu()
+    menu()
