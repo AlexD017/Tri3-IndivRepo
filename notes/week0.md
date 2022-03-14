@@ -1,5 +1,5 @@
 {% include navigation.html %}
-# Week 0
+# Week 0: (3/7/22 ~ 3/11/22)
 
 ## TPT 0.1 Beneficial and Harmful Effects of Computing Big Idea 5.1
 ### Notes:
