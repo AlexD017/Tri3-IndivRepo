@@ -28,7 +28,7 @@ This page will be integrated into our website as a PBL feature for now. The user
 
 ### Code Snippet #1:
 
-function loadPreviousQuestion() {
+        function loadPreviousQuestion() {
             currentQuestion--;
             score.pop();
             generateQuestions(currentQuestion);
@@ -51,7 +51,7 @@ function loadPreviousQuestion() {
 
 ### Code Snippet #2:
 
-   let currentQuestion = 0;
+    let currentQuestion = 0;
         let score = [];
         let selectedAnswersData = [];
         const totalQuestions =questions.length;
