@@ -1,5 +1,7 @@
 {% include navigation.html %}
-### Idea: How stressed are you? Quiz
+## Create Task Plan
+#### Idea: How stressed are you? quiz
+
 The Stress Quiz page is the practice create task. 
 It's main goal is to quiz users on how stressed the students are so that users can remember how much pressure they are going through in their school life.
 
@@ -24,8 +26,7 @@ This page will be integrated into our website as a PBL feature for now. The user
 
 * **Iteration:** Program loops for every question
 
-### Two Code Snippets:
-##### Code Snippet #1:
+### Code Snippet #1:
 
 function loadPreviousQuestion() {
             currentQuestion--;
@@ -48,7 +49,7 @@ function loadPreviousQuestion() {
         previousButton.addEventListener('click',loadPreviousQuestion);
         result.addEventListener('click',restartQuiz);
 
-#### Code Snippet #2:
+### Code Snippet #2:
 
    let currentQuestion = 0;
         let score = [];
