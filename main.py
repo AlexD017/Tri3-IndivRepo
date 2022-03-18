@@ -9,7 +9,7 @@ main_menu = [
 
 sub_menu = [
     ["Moving Ship", "replit/movingship.py"],
-    ["Moving Car", "replit/movingcar.py"]
+    ["Moving Car", "replit/movingcar.py"],
     ["Tree", "replit/tree.py"]
 ]
 
