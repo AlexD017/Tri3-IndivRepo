@@ -1,5 +1,4 @@
 import submenu
-import fibonacci
 
 
 main_menu = [
