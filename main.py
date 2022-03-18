@@ -1,15 +1,17 @@
 import submenu
+import fibonacci
 
 
 main_menu = [
     ["Number Swap", "replit/swap.py"],
     ["Matrix", "replit/matrix.py"],
-    ["Tree", "replit/tree.py"]
+    ["Fibonacci Sequence", "replit/fibonacci.py"] 
 ]
 
 sub_menu = [
     ["Moving Ship", "replit/movingship.py"],
     ["Moving Car", "replit/movingcar.py"]
+    ["Tree", "replit/tree.py"]
 ]
 
 border = "=" * 25
