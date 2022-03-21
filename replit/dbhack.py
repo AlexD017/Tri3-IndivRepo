@@ -61,3 +61,6 @@ def recur_factorial(n):
         return 1
     else:
         return n * recur_factorial(n-1)
+      
+if __name__ == "__main__":
+    tester()
