@@ -26,7 +26,7 @@ InfoDb.append({
 
 
 def print_data(n):
-    print("CompanyName", InfoDb[n]["CompanyName"], "\nCEO", InfoDb[n]["CEO"])  # using comma puts space between values
+    print("CompanyName:", InfoDb[n]["CompanyName"], "\nCEO:", InfoDb[n]["CEO"])  # using comma puts space between values
     print("\t", "Recent Models: ", end="")  # \t is a tab indent, end="" make sure no return occurs
     print(", ".join(InfoDb[n]["Recent_Models"]))  # join allows printing a string list with separator
     print()
@@ -52,8 +52,15 @@ def recursive_loop(n):
         recursive_loop(n + 1)
     return
 
+  
+  def recur_factorial(n):
+    if n == 1 or n == 0:
+        return 1
+    else:
+        return n * recur_factorial(n-1)
 
-def cars():
+      
+def tester():
     print("For loop")
     for_loop()
     print("While loop")
@@ -61,8 +68,4 @@ def cars():
     print("Recursive loop")
     recursive_loop(0)  # requires initial index to start recursion
 
-
-# this is test driver or code that plays when executed directly,
-# versus import which will not run these statements
-if __name__ == "__main__":
-    cars()
+tester()
