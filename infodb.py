@@ -24,6 +24,7 @@ InfoDb.append({
     "Recent_Models": ["Volkswagen Golf 8 GTI", "Volkswagen Tiguan Facelift", "Volkswagen Kombi T6", "Volkswagen Crafter Update", "2022 Volkswagen ID.4"]
 })
 
+
 # given an index this will print InfoDb content
 def print_data(n):
     print(InfoDb[n]["CompanyName"], InfoDb[n]["CEO"])  # using comma puts space between values
@@ -36,9 +37,11 @@ def print_data(n):
 ## hack 2b: def while_loop(0)
 ## hack 2c : def recursive_loop(0)
 
+
 def for_loop():
     for n in range(len(InfoDb)):
         print_data(n)
+
 
 def while_loop(n):
     while n < len(InfoDb):
@@ -46,18 +49,21 @@ def while_loop(n):
         n += 1
     return
 
+
 # recursion simulates loop incrementing on each call (n + 1) until exit condition is met
 def recursive_loop(n):
     if n < len(InfoDb):
         print_data(n)
         recursive_loop(n + 1)
-    return # exit condition
+    return  # exit condition
+
 
 def recur_factorial(n):
     if n == 1 or n == 0:
         return 1
     else:
         return n * recur_factorial(n-1)
+
 
 def tester():
     print("For loop")
@@ -66,5 +72,6 @@ def tester():
     while_loop(0)  # requires initial index to start while
     print("Recursive loop")
     recursive_loop(0)  # requires initial index to start recursion
+
 
 tester()
