@@ -1,10 +1,11 @@
 import submenu
+from dblist import *
 
 main_menu = [
     ["Number Swap", "replit/swap.py"],
     ["Matrix", "replit/matrix.py"],
-    ["Lists", "dblist.py"],
-    ["Fibonacci Sequence", "replit/fibonacci.py"] 
+    ["fibonacci", "replit/fibonacci.py"],
+    ["Lists", "dblist.py"]
 ]
 
 sub_menu = [
