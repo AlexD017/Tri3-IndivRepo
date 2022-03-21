@@ -1,10 +1,10 @@
 import submenu
-
+from dblist import *
 
 main_menu = [
     ["Number Swap", "replit/swap.py"],
     ["Matrix", "replit/matrix.py"],
-    ["Lists", "replit/dblist.py"],
+    ["Lists", "dblist.py"],
     ["Fibonacci Sequence", "replit/fibonacci.py"] 
 ]
 
@@ -23,19 +23,19 @@ def menu():
     menu_list = main_menu.copy()
     menu_list.append(["Animations", submenua])
     buildMenu(title, menu_list)
-    
-    
+
+
 def submenus():
     title = "Submenu" + banner
     m = submenu.Menu(title, sub_menu)
     m.menu()
-    
-    
+
+
 def submenua():
     title = "Submenu" + banner
     buildMenu(title, sub_menu)
-    
-    
+
+
 # builds console menu
 def buildMenu(banner, options):
     print(banner)
@@ -43,14 +43,14 @@ def buildMenu(banner, options):
     for op in options:
         index = len(prompts)
         prompts[index] = op
-        
+
     # print menu
     for key, value in prompts.items():
         print(key, '->', value[0])
-        
+
     # get user input
-    choice = input("Input your choice> ")
-    
+    choice = input("input your choice> ")
+
     # Process user input
     try:
         choice = int(choice)
@@ -72,8 +72,10 @@ def buildMenu(banner, options):
     except UnboundLocalError:
         # not one of the numbers listed
         print(f"invalid choice: {choice}")
+
     buildMenu(banner, options)  # recursion, start menu over again
-    
+
+
 if __name__ == "__main__":
     menu()
-    
+ 
