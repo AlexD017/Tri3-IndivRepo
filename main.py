@@ -78,4 +78,3 @@ def buildMenu(banner, options):
 
 if __name__ == "__main__":
     menu()
- 

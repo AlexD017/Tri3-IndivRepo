@@ -24,7 +24,7 @@ InfoDb.append({
     "Recent_Models": ["Volkswagen Golf 8 GTI", "Volkswagen Tiguan Facelift", "Volkswagen Kombi T6", "Volkswagen Crafter Update", "2022 Volkswagen ID.4"]
 })
 
-    # given an index this will print InfoDb content
+# given an index this will print InfoDb content
 def print_data(n):
     print(InfoDb[n]["CompanyName"], InfoDb[n]["CEO"])  # using comma puts space between values
     print("\t", "Recent Models: ", end="")  # \t is a tab indent, end="" make sure no return occurs
@@ -67,4 +67,4 @@ def tester():
     print("Recursive loop")
     recursive_loop(0)  # requires initial index to start recursion
 
-tester() 
+tester()
