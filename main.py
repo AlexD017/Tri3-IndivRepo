@@ -4,7 +4,7 @@ import submenu
 main_menu = [
     ["Number Swap", "replit/swap.py"],
     ["Matrix", "replit/matrix.py"],
-    ["Lists", "replit/dbhack.py"],
+    ["Lists", "replit/dblist.py"],
     ["Fibonacci Sequence", "replit/fibonacci.py"] 
 ]
 
