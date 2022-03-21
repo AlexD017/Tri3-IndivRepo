@@ -1,5 +1,4 @@
 import submenu
-from dblist import *
 
 main_menu = [
     ["Number Swap", "replit/swap.py"],
