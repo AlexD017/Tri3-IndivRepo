@@ -1,9 +1,9 @@
 def factors():
     num = int(input("Enter any number: "))
-    findFactors(num)
+    findfactors(num)
 
 
-def findFactors(number):
+def findfactors(number):
     print("Factors of the given number {0} is:".format(number))
 
     for value in range(1, number + 1):
