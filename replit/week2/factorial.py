@@ -9,4 +9,4 @@ class factorial:
 factorial = factorial()
 number = input("Enter a number to find the factorial of: ")
 number = int(number)
-print("the factorial of ", number, "is",   factorial(number))
+print("The factorial of ", number, "is",   factorial(number))
