@@ -1,9 +1,9 @@
-import submenu
-from infodb import *
+from replit import submenu
+from replit.week1.infodb import *
 from replit.week2.lcm import *
 
 main_menu = [
-    ["Database", "infodb.py"]
+    ["Database", "replit/week1/infodb.py"]
 ]
 
 sub_menu = [
@@ -27,19 +27,19 @@ banner = f"\n{border}\nSelect an option!\n{border}"
 def menu():
     title = "Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Animations", submenua])
+    menu_list.append(["Animations", submenus])
     menu_list.append(["Math", math_submenu])
     buildMenu(title, menu_list)
 
 
-def submenus():
-    title = "Submenu" + banner
+def submenuc():
+    title = "submenu" + banner
     m = submenu.Menu(title, sub_menu)
     m.menu()
 
 
-def submenua():
-    title = "Submenu" + banner
+def submenus():
+    title = "submenu" + banner
     buildMenu(title, sub_menu)
 
 
@@ -67,7 +67,7 @@ def buildMenu(banner, options):
         print(key, '->', value[0])
 
     # get user input
-    choice = input("input your choice> ")
+    choice = input("Input your choice> ")
 
     # Process user input
     try:
