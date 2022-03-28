@@ -17,7 +17,7 @@ math_sub_menu = [
     ["Matrix", "replit/week0/matrix.py"],
     ["Fibonacci", "replit/week1/fibonacci.py"],
     ["Factorial", "replit/week2/factorial.py"],
-    ["LCM", "replit/week 2/lcm.py"]
+    ["LCM", "replit/week2/lcm.py"]
 ]
 
 border = "=" * 25
