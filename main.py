@@ -1,9 +1,9 @@
-from replit import submenu
-from replit.week1.infodb import *
-from replit.week2.lcm import *
+import submenu
+from infodb import *
+from lcm import *
 
 main_menu = [
-    ["Database", "replit/week1/infodb.py"]
+    ["Database", "infodb.py"]
 ]
 
 sub_menu = [
@@ -17,7 +17,7 @@ math_sub_menu = [
     ["Matrix", "replit/week0/matrix.py"],
     ["Fibonacci", "replit/week1/fibonacci.py"],
     ["Factorial", "replit/week2/factorial.py"],
-    ["LCM", "replit/week2/lcm.py"]
+    ["LCM", "lcm.py"]
 ]
 
 border = "=" * 25
