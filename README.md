@@ -6,6 +6,6 @@
 * [Submenu](https://replit.com/@AlexDo8/Tri3-IndivRepo#submenu.py)
 
 ## Week 1 (03/14/22 - 03/18/22)
-### **[Review Ticket]()**
+### **[Review Ticket](https://github.com/willcyber/tri3/issues/21)**
 * [Lists & Loops](https://replit.com/@AlexDo8/Tri3-IndivRepo#infodb.py)
 * [Fibonacci Sequence](https://replit.com/@AlexDo8/Tri3-IndivRepo#replit/fibonacci.py)
