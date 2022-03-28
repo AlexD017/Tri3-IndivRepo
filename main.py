@@ -2,16 +2,16 @@ import submenu
 from infodb import *
 
 main_menu = [
-    ["Number Swap", "replit/swap.py"],
-    ["Matrix", "replit/matrix.py"],
-    ["fibonacci", "replit/fibonacci.py"],
+    ["Number Swap", "replit/week0/swap.py"],
+    ["Matrix", "replit/week0/matrix.py"],
+    ["fibonacci", "replit/week1/fibonacci.py"],
     ["Lists", "infodb.py"]
 ]
 
 sub_menu = [
-    ["Moving Ship", "replit/movingship.py"],
-    ["Moving Car", "replit/movingcar.py"],
-    ["Tree", "replit/tree.py"]
+    ["Moving Ship", "replit/week0/movingship.py"],
+    ["Moving Car", "replit/week0/movingcar.py"],
+    ["Tree", "replit/week0/tree.py"]
 ]
 
 border = "=" * 25
