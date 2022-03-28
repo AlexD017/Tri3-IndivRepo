@@ -1,21 +1,22 @@
 import submenu
 from infodb import *
+from replit.week2.lcm import *
 
 main_menu = [
     ["Database", "infodb.py"]
 ]
 
 sub_menu = [
-    ["Moving Ship", "replit/week 0/movingship.py"],
-    ["Moving Car", "replit/week 0/movingcar.py"],
-    ["Tree", "replit/week_0/tree.py"]
+    ["Moving Ship", "replit/week0/movingship.py"],
+    ["Moving Car", "replit/week0/movingcar.py"],
+    ["Tree", "replit/week0/tree.py"]
 ]
 
 math_sub_menu = [
-    ["Number Swap", "replit/week 0/swap.py"],
-    ["Matrix", "replit/week 0/matrix.py"],
-    ["Fibonacci", "replit/week 1/fibonacci.py"],
-    ["Factorial", "replit/week 2/factorial.py"],
+    ["Number Swap", "replit/week0/swap.py"],
+    ["Matrix", "replit/week0/matrix.py"],
+    ["Fibonacci", "replit/week1/fibonacci.py"],
+    ["Factorial", "replit/week2/factorial.py"],
     ["LCM", "replit/week 2/lcm.py"]
 ]
 
