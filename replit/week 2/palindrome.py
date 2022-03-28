@@ -2,34 +2,26 @@ import re
 
 
 class Palindrome:
-    def __call__(self, n):
-        n = re.sub(r'[^a-zA-Z0-9]', '', n).lower()
-        if n == n[::-1]:
-            return " "
-        else:
-            return " not "
+    # function to check string is
+    # palindrome or not
+    def isPalindrome(s):
+        s = re.sub(r'[^a-zA-Z0-9]', '', s).lower()
 
+        # Using predefined function to
+        # reverse to string print(s)
+        rev = ''.join(reversed(s))
 
-def test():
-    pal = Palindrome()
-    n = "alex"
-    print(f'"{n}" is' + pal(n) + "a palindrome")
-    n = "A man, a plan, a canal -- Panama!"
-    print(f'"{n}" is' + pal(n) + "a palindrome")
-    n = "Borrow or rob?"
-    print(f'"{n}" is' + pal(n) + "a palindrome")
-    n = "RACECAR"
-    print(f'"{n}" is' + pal(n) + "a palindrome")
-    n = "Who are you?"
-    print(f'"{n}" is' + pal(n) + "a palindrome")
-    n = "palindrome"
-    print(f'"{n}" is' + pal(n) + "a palindrome")
+        # Checking if both string are
+        # equal or not
+        if (s == rev):
+            return True
+        return False
 
+    # main function
+    s = input(str("Enter a statement/word: "))
+    ans = isPalindrome(s)
 
-def run():
-    pal = Palindrome()
-    try:
-        n = input("Enter your string ")
-        print(f'"{n}" is' + pal(n) + "a palindrome")
-    except:
-        print("string")
+    if (ans):
+        print(f"{s} is a Palindrome")
+    else:
+        print(f"{s} is not a Palindrome")

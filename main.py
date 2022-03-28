@@ -2,23 +2,22 @@ import submenu
 from infodb import *
 
 main_menu = [
-    ["Lists", "infodb.py"]
+    ["Database", "infodb.py"],
+    ["Palindrome", "replit/week 2/palindrome.py"]
 ]
 
 sub_menu = [
-    ["Moving Ship", "replit/week0/movingship.py"],
-    ["Moving Car", "replit/week0/movingcar.py"],
-    ["Tree", "replit/week0/tree.py"]
+    ["Moving Ship", "replit/week 0/movingship.py"],
+    ["Moving Car", "replit/week 0/movingcar.py"],
+    ["Tree", "replit/week_0/tree.py"]
 ]
 
 math_sub_menu = [
-    ["Number Swap", "replit/week0/swap.py"],
-    ["Matrix", "replit/week0/matrix.py"],
-    ["Fibonacci", "replit/week1/fibonacci.py"],
-    ["Factorial", "replit/week2/factorial.py"],
-    ["Palindrome", "replit/week2/palindrome.py"],
-    ["Decimal to Binary"]
-
+    ["Number Swap", "replit/week 0/swap.py"],
+    ["Matrix", "replit/week 0/matrix.py"],
+    ["Fibonacci", "replit/week 1/fibonacci.py"],
+    ["Factorial", "replit/week 2/factorial.py"],
+    ["Decimal to Binary", "replit/week 2/convert.py"]
 ]
 
 border = "=" * 25

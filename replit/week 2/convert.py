@@ -8,7 +8,7 @@ def DecimalToBinary(num):
 # Driver Code
 if __name__ == '__main__':
 
-    dec_val = int(input("Enter decimal number: "))
+    dec_val = int(input("Enter a decimal number to convert to: "))
 
     # Calling function
-    print("Binary Number:"), DecimalToBinary(dec_val)
+    print("Converted Binary Number:"), DecimalToBinary(dec_val)
