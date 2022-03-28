@@ -2,8 +2,7 @@ import submenu
 from infodb import *
 
 main_menu = [
-    ["Database", "infodb.py"],
-    ["Palindrome", "replit/week 2/palindrome.py"]
+    ["Database", "infodb.py"]
 ]
 
 sub_menu = [
@@ -17,7 +16,7 @@ math_sub_menu = [
     ["Matrix", "replit/week 0/matrix.py"],
     ["Fibonacci", "replit/week 1/fibonacci.py"],
     ["Factorial", "replit/week 2/factorial.py"],
-    ["Decimal to Binary", "replit/week 2/convert.py"]
+    ["GCD", "replit/week 2/GCD.py"]
 ]
 
 border = "=" * 25
