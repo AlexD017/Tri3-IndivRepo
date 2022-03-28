@@ -2,9 +2,6 @@ import submenu
 from infodb import *
 
 main_menu = [
-    ["Number Swap", "replit/week0/swap.py"],
-    ["Matrix", "replit/week0/matrix.py"],
-    ["fibonacci", "replit/week1/fibonacci.py"],
     ["Lists", "infodb.py"]
 ]
 
@@ -12,6 +9,16 @@ sub_menu = [
     ["Moving Ship", "replit/week0/movingship.py"],
     ["Moving Car", "replit/week0/movingcar.py"],
     ["Tree", "replit/week0/tree.py"]
+]
+
+math_sub_menu = [
+    ["Number Swap", "replit/week0/swap.py"],
+    ["Matrix", "replit/week0/matrix.py"],
+    ["Fibonacci", "replit/week1/fibonacci.py"],
+    ["Factorial", "replit/week2/factorial.py"],
+    ["Palindrome", "replit/week2/palindrome.py"],
+    ["Decimal to Binary"]
+
 ]
 
 border = "=" * 25
@@ -22,6 +29,7 @@ def menu():
     title = "Menu" + banner
     menu_list = main_menu.copy()
     menu_list.append(["Animations", submenua])
+    menu_list.append(["Math", math_submenu])
     buildMenu(title, menu_list)
 
 
@@ -34,6 +42,17 @@ def submenus():
 def submenua():
     title = "Submenu" + banner
     buildMenu(title, sub_menu)
+
+
+def math_submenuc():
+    title = "submenu" + banner
+    m = submenu.Menu(title, math_sub_menu)
+    m.menu()
+
+
+def math_submenu():
+    title = "submenu" + banner
+    buildMenu(title, math_sub_menu)
 
 
 # builds console menu
