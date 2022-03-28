@@ -34,7 +34,7 @@ def print_data(n):
 
 # Hack 2: InfoDB loops. Print values from the lists using three different ways: for, while, recursion
 # hack 2a: def for_loop()
-## hack 2b: def while_loop(0)
+# hack 2b: def while_loop(0)
 ## hack 2c : def recursive_loop(0)
 
 
