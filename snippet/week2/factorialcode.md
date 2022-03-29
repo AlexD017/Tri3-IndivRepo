@@ -1,4 +1,4 @@
-### Code Snippet for Factorial
+### Code Snippet for factorial.py
     class factorial:
         def __call__(self, num):
             final = 1
