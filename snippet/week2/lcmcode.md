@@ -1,4 +1,5 @@
-### Code Snippet for LCM
+### Code Snippet for lcm.py
+
     def lcm(num1, num2):  # imperative
         if (num1 > num2):
             max = num1
