@@ -1,3 +1,5 @@
+### <td><a href="https://alexd017.github.io/Tri3-IndivRepo/">Back</a></td>
+
 ### Code Snippet for lcm.py
 
     def lcm(num1, num2):  # imperative
