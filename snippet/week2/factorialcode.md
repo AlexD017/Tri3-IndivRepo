@@ -1,4 +1,4 @@
-### <td><a href="https://alexd017.github.io/Tri3-IndivRepo/">Back</a></td>
+### <a href="https://alexd017.github.io/Tri3-IndivRepo/">Back</a>
 
 ### Code Snippet for factorial.py
 
