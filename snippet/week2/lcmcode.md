@@ -1,4 +1,7 @@
-### Code Snippet for LCM
+### <a href="https://alexd017.github.io/Tri3-IndivRepo/">Back</a>
+
+### Code Snippet for lcm.py
+
     def lcm(num1, num2):  # imperative
         if (num1 > num2):
             max = num1
