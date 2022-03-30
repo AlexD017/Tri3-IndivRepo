@@ -1,26 +1,28 @@
-# Tri3-IndivRepo
+<h1> Tri3-IndivRepo </h1>
 {% include navigation.html%}
-## Table of Contents
-- [Replit Link](https://replit.com/@AlexDo8/Tri3-IndivRepo)
-- [Week 0](#week-0)
-- [Week 1](#week-1)
-- [Week 2](#week-2)
 
-## Week 0  
-### (03/07/22 - 03/11/22)
-#### **[Review Ticket](https://github.com/willcyber/tri3/issues/4)**
-* [Menu](https://alexd017.github.io/Tri3-IndivRepo/snippet/week0/maincode)
-* [Submenu](https://alexd017.github.io/Tri3-IndivRepo/snippet/week0/submenucode)
-* [Tree](https://alexd017.github.io/Tri3-IndivRepo/snippet/week0/treecode)
-
-## Week 1 
-### (03/14/22 - 03/18/22)
-#### **[Review Ticket](https://github.com/willcyber/tri3/issues/21)** 
-* [Lists & Loops](https://alexd017.github.io/Tri3-IndivRepo/snippet/week1/infodbcode)
-* [Fibonacci Sequence](https://alexd017.github.io/Tri3-IndivRepo/snippet/week1/fibonaccicode)
-
-## Week 2
-### (03/21/22 - 03/25/22)
-#### **[Review Ticket](https://github.com/willcyber/tri3/issues/28)**
-* [Factorial](https://alexd017.github.io/Tri3-IndivRepo/snippet/week2/factorialcode)
-* [Least Common Multiple](https://alexd017.github.io/Tri3-IndivRepo/snippet/week2/lcmcode)
+<table>
+  <tr>
+    <th>Replit</th>
+    <td><a src="https://replit.com/@AlexDo8/Tri3-IndivRepo">Link</a>
+  </tr>
+  <tr>
+    <th>Week 0 (03/07/22 - 03/11/22)</th>
+    <td><a src="https://github.com/willcyber/tri3/issues/4">Review Ticket</a></td>
+    <td><a src="https://alexd017.github.io/Tri3-IndivRepo/snippet/week0/maincode">Menu</a></td>
+    <td><a src="https://alexd017.github.io/Tri3-IndivRepo/snippet/week0/submenucode">Submenu</a></td>
+    <td><a src="https://alexd017.github.io/Tri3-IndivRepo/snippet/week0/treecode">Tree</a></td>
+  </tr>
+  <tr>
+    <th>Week 1 (03/14/22 - 03/18/22)</th>
+    <td><a src="https://github.com/willcyber/tri3/issues/21">Review Ticket</a></td>
+    <td><a src="https://alexd017.github.io/Tri3-IndivRepo/snippet/week1/infodbcode">InfoDB</a></td>
+    <td><a src="https://alexd017.github.io/Tri3-IndivRepo/snippet/week1/fibonaccicode">Fibonacci</a></td>
+  </tr>
+  <tr>
+    <th>Week 2 (03/21/22 - 03/25/22)</th>
+    <td><a src="https://github.com/willcyber/tri3/issues/28">Review Ticket</a></td>
+    <td><a src="https://alexd017.github.io/Tri3-IndivRepo/snippet/week2/factorialcode">Factorial</a></td>
+    <td><a src="https://alexd017.github.io/Tri3-IndivRepo/snippet/week2/lcmcode">LCM</a></td>
+  </tr>
+ </table>
