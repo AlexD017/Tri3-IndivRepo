@@ -30,4 +30,11 @@
     <td><a src="https://alexd017.github.io/Tri3-IndivRepo/snippet/week2/lcmcode">LCM</a></td>
     <th></th>
   </tr>
+  <tr>
+    <th>Week 3 (03/28/22 - 04/01/22)</th>
+    <td><a src="">TBD</a></td>
+    <td><a src="">TBD</a></td>
+    <td><a src="">TBD</a></td>
+    <th></th>
+  </tr>
 </table>
