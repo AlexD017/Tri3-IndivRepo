@@ -1,23 +1,25 @@
 import submenu
-from infodb import *
-from lcm import *
 
+from week0 import matrix, movingcar, swap, tree
+from week1 import infodb, fibonacci
+from week2 import lcm, factorial
+
+# from folder/subfolder import filename
 main_menu = [
-    ["Database", "infodb.py"]
+    ["Database", infodb.tester ]
 ]
 
 sub_menu = [
-    ["Moving Ship", "replit/week0/movingship.py"],
-    ["Moving Car", "replit/week0/movingcar.py"],
-    ["Tree", "replit/week0/tree.py"]
+    ["Moving Car", movingcar.ship],
+    ["Tree", tree.tree]
 ]
 
 math_sub_menu = [
-    ["Number Swap", "replit/week0/swap.py"],
-    ["Matrix", "replit/week0/matrix.py"],
-    ["Fibonacci", "replit/week1/fibonacci.py"],
-    ["Factorial", "replit/week2/factorial.py"],
-    ["LCM", "lcm.py"]
+    ["Number Swap", swap.numbswap],
+    ["Matrix", matrix.matrix],
+    ["Fibonacci", fibonacci.run],
+    ["Factorial", factorial.tester],
+    ["LCM", lcm.run]
 ]
 
 border = "=" * 25

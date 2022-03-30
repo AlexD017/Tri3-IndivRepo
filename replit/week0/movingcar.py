@@ -1,349 +1,41 @@
 import time
-import os
 
-LightGray = "\033[0;37m"
-Color33 = "\u001b[33m"
+# terminal print commands
+ANSI_CLEAR_SCREEN = u"\u001B[2J"
+ANSI_HOME_CURSOR = u"\u001B[0;0H\u001B[2"
+OCEAN_COLOR = u""
+SHIP_COLOR = u"\u001B[32m\u001B[2D"
+RESET_COLOR = u"\u001B[0m\u001B[2D"
 
+def ocean_print():
+    # print ocean
+    print(ANSI_CLEAR_SCREEN, ANSI_HOME_CURSOR)
+    print("\n\n\n\n")
+    print(OCEAN_COLOR + "  " * 35)
 
-def car():
-    print("                               _______ ")
-    print("                               //  ||\ \ ")
-    print("                         _____//___||_\ \___")
-    print("                         )  _          _     \ ")
-    print("                         |_  / \________/ \___| ")
-    print("                             \_/        \_/")
-    print("\033[0;37m -------------------------------------------- \u001b[33m")
+# print ship with colors and leading spaces
+def ship_print(position):
+    print(ANSI_HOME_CURSOR)
+    print(RESET_COLOR)
+    sp = " " * position
+    print(sp + " _____________   ")
+    print(sp + " [][][][][] |_\_   ")
+    print(sp + " |  EL CARRO |   )   ")
+    print(sp + " =--OO-------OO--=    ")
+    print(RESET_COLOR)
 
+# ship function, iterface into this file
+def ship():
+  ocean_print()
+  # loop control variables
+  start = 0  # start at zero
+  distance = 75  # how many times to repeat
+  step = 2  # count by 2
 
-def car1():
-    print("                              _______ ")
-    print("                              //  ||\ \ ")
-    print("                        _____//___||_\ \___")
-    print("                        )  _          _     \ ")
-    print("                        |_  / \________/ \___| ")
-    print("                            \_/        \_/")
-    print("\033[0;37m -------------------------------------------- \u001b[33m")
+  # loop purpose is to animate ship sailing
+  for position in range(start, distance, step):
+      ship_print(position)  # call to function with parameter
+      time.sleep(.1)
 
-
-def car2():
-    print("                             _______ ")
-    print("                             //  ||\ \ ")
-    print("                       _____//___||_\ \___")
-    print("                       )  _          _     \ ")
-    print("                        _  / \________/ \___| ")
-    print("                           \_/        \_/")
-    print("\033[0;37m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[33m")
-
-
-def car3():
-    print("                            _______ ")
-    print("                            //  ||\ \ ")
-    print("                      _____//___||_\ \___")
-    print("                      )  _          _     \ ")
-    print("                      |_  / \________/ \___| ")
-    print("                          \_/        \_/")
-    print("\033[0;37m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[33m")
-
-
-def car4():
-    print("                           _______ ")
-    print("                           //  ||\ \ ")
-    print("                     _____//___||_\ \___")
-    print("                     )  _          _     \ ")
-    print("                     |_  / \________/ \___| ")
-    print("                         \_/        \_/")
-    print("\033[0;37m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[33m")
-
-
-def car5():
-    print("                          _______ ")
-    print("                          //  ||\ \ ")
-    print("                    _____//___||_\ \___")
-    print("                    )  _          _     \ ")
-    print("                    |_  / \________/ \___| ")
-    print("                        \_/        \_/")
-    print("\033[0;37m -------------------------------------------- \u001b[33m")
-
-
-def car6():
-    print("                         _______ ")
-    print("                         //  ||\ \ ")
-    print("                   _____//___||_\ \___")
-    print("                   )  _          _     \ ")
-    print("                   |_  / \________/ \___| ")
-    print("                       \_/        \_/")
-    print("\033[0;37m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[33m")
-
-
-def car7():
-    print("                        _______ ")
-    print("                        //  ||\ \ ")
-    print("                  _____//___||_\ \___")
-    print("                  )  _          _     \ ")
-    print("                  |_  / \________/ \___| ")
-    print("                      \_/        \_/")
-    print("\033[0;37m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[33m")
-
-
-def car8():
-    print("                       _______ ")
-    print("                       //  ||\ \ ")
-    print("                 _____//___||_\ \___")
-    print("                 )  _          _     \ ")
-    print("                 |_  / \________/ \___| ")
-    print("                     \_/        \_/")
-    print("\033[0;37m -------------------------------------------- \u001b[33m")
-
-
-def car9():
-    print("                      _______ ")
-    print("                      //  ||\ \ ")
-    print("                _____//___||_\ \___")
-    print("                )  _          _     \ ")
-    print("                |_  / \________/ \___| ")
-    print("                    \_/        \_/")
-    print("\033[0;37m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[33m")
-
-
-def car10():
-    print("                     _______ ")
-    print("                     //  ||\ \ ")
-    print("               _____//___||_\ \___")
-    print("               )  _          _     \ ")
-    print("               |_  / \________/ \___| ")
-    print("                   \_/        \_/")
-    print("\033[0;37m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[33m")
-
-
-def car11():
-    print("                    _______ ")
-    print("                    //  ||\ \ ")
-    print("              _____//___||_\ \___")
-    print("              )  _          _     \ ")
-    print("              |_  / \________/ \___| ")
-    print("                  \_/        \_/")
-    print("\033[0;37m -------------------------------------------- \u001b[33m")
-
-
-def car12():
-    print("                   _______ ")
-    print("                   //  ||\ \ ")
-    print("             _____//___||_\ \___")
-    print("             )  _          _     \ ")
-    print("             |_  / \________/ \___| ")
-    print("                 \_/        \_/")
-    print("\033[0;37m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[33m")
-
-
-def car13():
-    print("                  _______ ")
-    print("                  //  ||\ \ ")
-    print("            _____//___||_\ \___")
-    print("            )  _          _     \ ")
-    print("            |_  / \________/ \___| ")
-    print("                \_/        \_/")
-    print("\033[0;37m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[33m")
-
-
-def car14():
-    print("                 _______ ")
-    print("                 //  ||\ \ ")
-    print("           _____//___||_\ \___")
-    print("           )  _          _     \ ")
-    print("           |_  / \________/ \___| ")
-    print("               \_/        \_/")
-    print("\033[0;37mm ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[33m")
-
-
-def car15():
-    print("                _______ ")
-    print("                //  ||\ \ ")
-    print("          _____//___||_\ \___")
-    print("          )  _          _     \ ")
-    print("          |_  / \________/ \___| ")
-    print("              \_/        \_/")
-    print("\033[0;37m -------------------------------------------- \u001b[33m")
-
-
-def car16():
-    print("               _______ ")
-    print("               //  ||\ \ ")
-    print("         _____//___||_\ \___")
-    print("         )  _          _     \ ")
-    print("         |_  / \________/ \___| ")
-    print("             \_/        \_/")
-    print("\033[0;37m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[33m")
-
-
-def car17():
-    print("              _______ ")
-    print("              //  ||\ \ ")
-    print("        _____//___||_\ \___")
-    print("        )  _          _     \ ")
-    print("        |_  / \________/ \___| ")
-    print("            \_/        \_/")
-    print("\033[0;37m -------------------------------------------- \u001b[33m")
-
-
-def car18():
-    print("             _______ ")
-    print("             //  ||\ \ ")
-    print("       _____//___||_\ \___")
-    print("       )  _          _     \ ")
-    print("       |_  / \________/ \___| ")
-    print("           \_/        \_/")
-    print("\033[0;37m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \u001b[33m")
-
-
-def car19():
-    print("            _______ ")
-    print("            //  ||\ \ ")
-    print("      _____//___||_\ \___")
-    print("      )  _          _     \ ")
-    print("      |_  / \________/ \___| ")
-    print("          \_/        \_/")
-    print("\033[0;37m -------------------------------------------- \u001b[33m")
-
-
-def car20():
-    print("           _______ ")
-    print("           //  ||\ \ ")
-    print("     _____//___||_\ \___")
-    print("     )  _          _     \ ")
-    print("     |_  / \________/ \___| ")
-    print("         \_/        \_/")
-    print("\033[0;37m -------------------------------------------- \u001b[33m")
-
-
-def car21():
-    print("          _______ ")
-    print("          //  ||\ \ ")
-    print("    _____//___||_\ \___")
-    print("    )  _          _     \ ")
-    print("    |_  / \________/ \___| ")
-    print("        \_/        \_/")
-    print("\033[0;37m -------------------------------------------- \u001b[33m")
-
-
-def car22():
-    print("         _______ ")
-    print("         //  ||\ \ ")
-    print("   _____//___||_\ \___")
-    print("   )  _          _     \ ")
-    print("   |_  / \________/ \___| ")
-    print("       \_/        \_/")
-    print("\033[0;37m -------------------------------------------- \u001b[33m")
-
-
-def car23():
-    print("        _______ ")
-    print("        //  ||\ \ ")
-    print("  _____//___||_\ \___")
-    print("  )  _          _     \ ")
-    print("  |_  / \________/ \___| ")
-    print("      \_/        \_/")
-    print("\033[0;37m -------------------------------------------- \u001b[33m")
-
-
-def car24():
-    print("       _______ ")
-    print("       //  ||\ \ ")
-    print(" _____//___||_\ \___")
-    print(" )  _          _     \ ")
-    print(" |_  / \________/ \___| ")
-    print("     \_/        \_/")
-    print("\033[0;37m -------------------------------------------- \u001b[33m")
-
-
-def car25():
-    print("      _______ ")
-    print("      //  ||\ \ ")
-    print("_____//___||_\ \___")
-    print(")  _          _     \ ")
-    print("|_  / \________/ \___| ")
-    print("    \_/        \_/")
-    print("\033[0;37m -------------------------------------------- \u001b[33m"); print("\u001b[37m")
-
-
-os.system("clear")
-car()
-os.system("clear")
-time.sleep(.1)
-car1()
-time.sleep(.5)
-os.system("clear")
-car2()
-time.sleep(.5)
-os.system("clear")
-car3()
-time.sleep(.5)
-os.system("clear")
-car4()
-time.sleep(.5)
-os.system("clear")
-car5()
-time.sleep(.5)
-os.system("clear")
-car6()
-time.sleep(.5)
-os.system("clear")
-car7()
-time.sleep(.5)
-os.system("clear")
-car8()
-time.sleep(.5)
-os.system("clear")
-car9()
-time.sleep(.5)
-os.system("clear")
-car10()
-time.sleep(.5)
-os.system("clear")
-car11()
-time.sleep(.5)
-os.system("clear")
-car12()
-time.sleep(.5)
-os.system("clear")
-car13()
-time.sleep(.5)
-os.system("clear")
-car14()
-time.sleep(.5)
-os.system("clear")
-car15()
-time.sleep(.5)
-os.system("clear")
-car16()
-time.sleep(.5)
-os.system("clear")
-car17()
-time.sleep(.5)
-os.system("clear")
-car18()
-time.sleep(.5)
-os.system("clear")
-car19()
-time.sleep(.5)
-os.system("clear")
-car20()
-time.sleep(.5)
-os.system("clear")
-car21()
-time.sleep(.5)
-os.system("clear")
-car22()
-time.sleep(.5)
-os.system("clear")
-car23()
-time.sleep(.5)
-os.system("clear")
-car24()
-time.sleep(.5)
-os.system("clear")
-car25()
-time.sleep(.5)
-os.system("clear")
-print("or so you thought...")
-time.sleep(.5)
-os.system("clear")
+if __name__ == "__main__":
+  ship()

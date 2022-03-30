@@ -1,6 +1,8 @@
 # Program to display the Fibonacci sequence up to n-th term
-n = int(input('How many terms? '))
-
+def run():
+  n = int(input('How many terms? '))
+  fibonacci(n)
+  
 def fibonacci(n):
   a=0
   b=1
@@ -26,4 +28,7 @@ def fibonacci(n):
       fibList.append(c)
   print(fibList)
 
-fibonacci(n) 
+
+if __name__ == "__main__":
+  run()
+ 

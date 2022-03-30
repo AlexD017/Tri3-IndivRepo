@@ -73,5 +73,5 @@ def tester():
     print("Recursive loop")
     recursive_loop(0)  # requires initial index to start recursion
 
-
-tester()
+if __name__ == "__main__":
+  tester()

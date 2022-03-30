@@ -1,12 +1,20 @@
-class factorial:
-    def __call__(self, num):
-        final = 1
-        for i in range(1, num + 1):
-            final = final * i
-        return final
+class Factorial: 
+  def __init__(self):
+    self.factSeq = [0, 1]
+  def __call__(self, n):
+    if n < len(self.factSeq):
+      return self.factSeq[n]
+    else:
+      num = n * self(n-1)
+      return num
 
+def tester():
+  num_input = int(input("Enter a number for factorial: "))
+  factorial_of = Factorial()
+  if num_input < 0:
+      print("Sorry, factorial does not exist for negative numbers.")
+  else:
+      print("The factorial of", num_input, "is", factorial_of(num_input))
 
-factorial = factorial()
-number = input("Enter a number to find the factorial of: ")
-number = int(number)
-print("The factorial of ", number, "is",   factorial(number))
+if __name__ == "__main__":
+  tester()
