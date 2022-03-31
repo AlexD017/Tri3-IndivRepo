@@ -2,8 +2,6 @@
 
 <h1> Notes by the Week </h1>
 
-{% include navigation.html%}
-
 <table>
   <tr>
     <th>Week 0 (03/07/22 - 03/11/22)</th>
