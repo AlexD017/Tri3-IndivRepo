@@ -4,10 +4,7 @@
 <table>
   <tr>
     <th>Replit</th>
-    <td><a href="https://replit.com/@AlexDo8/Tri3-IndivRepo">Link</a></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td colspan="4"><a style="text-align: center" href="https://replit.com/@AlexDo8/Tri3-IndivRepo">Link</a></td>
   </tr>
   <tr>
     <th>Week 0 (03/07/22 - 03/11/22)</th>
