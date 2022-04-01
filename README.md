@@ -4,7 +4,7 @@
 <table>
   <tr>
     <th>Replit</th>
-    <td colspan="4"><a style="text-align: center" href="https://replit.com/@AlexDo8/Tri3-IndivRepo">Link</a></td>
+    <td colspan:"4"><a href="https://replit.com/@AlexDo8/Tri3-IndivRepo">Link</a></td>
   </tr>
   <tr>
     <th>Week 0 (03/07/22 - 03/11/22)</th>
@@ -30,8 +30,8 @@
   <tr>
     <th>Week 3 (03/28/22 - 04/01/22)</th>
     <td><a href="">TBD</a></td>
-    <td><a style="font-size: .63em" href="https://github.com/ProRichyMan/NathanIndividual/commits/github-pages?author=AlexD017">Crossover Commits (GH page)</a></td>
-    <td><a style="font-size: .63em" href="https://github.com/ProRichyMan/Nathanreplit/commits?author=AlexD017">Crossover Commits (replit)</a></td>
+    <td><a href="https://github.com/ProRichyMan/NathanIndividual/commits/github-pages?author=AlexD017">Crossover Commits     (GH page)</a></td>
+    <td><a href="https://github.com/ProRichyMan/Nathanreplit/commits?author=AlexD017">Crossover Commits (replit)</a></td>
     <td></td>
   </tr>
 </table>
