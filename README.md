@@ -40,5 +40,11 @@
     <td><a href="https://alexd017.github.io/Tri3-IndivRepo/task"> Create Task Coding requirements documented</a></td>
     <td><a href="https://alexd017.github.io/Tri3-IndivRepo/snippet/week4/createtask">CB Create Task Runtime</a></td>
     <td><a href="https://alexd017.github.io/Tri3-IndivRepo/snippet/week4/CRUD">Login Runtime</a></td>
+  <tr>  
+    <th>Week 5 (04/18/22 - 04/22/22)</th>
+    <td><a href="https://github.com/willcyber/tri3/issues/">Week 5 Review Ticket</a></td>
+    <td><a href="https://alexd017.github.io/Tri3-IndivRepo/week5/CBnote1"> College Board Lecture Note #1</a></td>
+    <td><a href="https://alexd017.github.io/Tri3-IndivRepo/week5/CBnote2"> College Board Lecture Note #2</a></td>
+    <td></td>
   </tr>
 </table>
