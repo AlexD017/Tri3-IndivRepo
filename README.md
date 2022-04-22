@@ -40,6 +40,5 @@
     <td><a href="https://alexd017.github.io/Tri3-IndivRepo/task"> Create Task Coding requirements documented</a></td>
     <td><a href="https://alexd017.github.io/Tri3-IndivRepo/snippet/week4/createtask">CB Create Task Runtime</a></td>
     <td><a href="https://alexd017.github.io/Tri3-IndivRepo/snippet/week4/CRUD">Login Runtime</a></td>
-    <td></td>
   </tr>
 </table>
