@@ -1,4 +1,4 @@
-(% include navigation.html %)
+{% include navigation.html %}
 # CB University Faculty Lecture Video Note #2
 
 ## CRD-2: UNIVERSITY FACULTY LECTURE
