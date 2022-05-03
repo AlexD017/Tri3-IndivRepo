@@ -42,10 +42,15 @@
     <td><a href="https://alexd017.github.io/Tri3-IndivRepo/snippet/week4/CRUD">Login Runtime</a></td>
   </tr>  
   <tr>  
-    <th>Week 5 (04/18/22 - 04/22/22)</th>
+    <th>Week 5 (04/18/22 - 04/25/22)</th>
     <td><a href="https://github.com/willcyber/tri3/issues/40">Week 5 Review Ticket</a></td>
     <td><a href="https://alexd017.github.io/Tri3-IndivRepo/week5/CBnote1"> College Board Lecture Note #1</a></td>
     <td><a href="https://alexd017.github.io/Tri3-IndivRepo/week5/CBnote2"> College Board Lecture Note #2</a></td>
     <td><a href="https://alexd017.github.io/Tri3-IndivRepo/week5/projecttask"> Project Task Runtime + Coding Reflection</a></td>
+  </tr>
+  <tr>  
+    <th>Week 6 (04/25/22 - 05/2/22)</th>
+    <td><a href="https://github.com/willcyber/tri3/issues/45">Week 6 Review Ticket</a></td>
+    <td colspan="3"><a href="https://alexd017.github.io/Tri3-IndivRepo/week6/tangible"> Tangibles for two weeks</a></td>
   </tr>
 </table>
