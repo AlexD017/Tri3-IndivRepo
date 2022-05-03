@@ -51,6 +51,6 @@
   <tr>  
     <th>Week 6 (04/25/22 - 05/2/22)</th>
     <td><a href="https://github.com/willcyber/tri3/issues/45">Week 6 Review Ticket</a></td>
-    <td colspan="3"><a href="https://alexd017.github.io/Tri3-IndivRepo/week6/tangible"> Tangibles for two weeks</a></td>
+    <td colspan="3"><a href="https://alexd017.github.io/Tri3-IndivRepo/week6/tangible"> Tangibles for this week</a></td>
   </tr>
 </table>
