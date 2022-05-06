@@ -49,9 +49,14 @@
     <td><a href="https://alexd017.github.io/Tri3-IndivRepo/week5/projecttask"> Project Task Runtime + Coding Reflection</a></td>
   </tr>
   <tr>  
-    <th>Week 6 (04/25/22 - 05/2/22)</th>
+    <th>Week 6 (04/25/22 - 05/02/22)</th>
     <td><a href="https://github.com/willcyber/tri3/issues/45">Week 6 Review Ticket</a></td>
     <td><a href="https://alexd017.github.io/Tri3-IndivRepo/week6/mcq3score"> MCQ 3 Score</a></td>
     <td colspan="2"><a href="https://alexd017.github.io/Tri3-IndivRepo/week6/tangible"> Tangibles for this week</a></td>
+  </tr>
+  <tr>  
+    <th>Week 7 (05/2/22 - 05/6/22)</th>
+    <td><a href="https://github.com/willcyber/tri3/issues/">Week 7 Review Ticket</a></td>
+    <td colapsn ="3"><a href="https://alexd017.github.io/Tri3-IndivRepo/week7/tangible"> Tangibles for this week</a></td>
   </tr>
 </table>
